@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <style>
+     body {
+         background-color: black;
+     }
+     h1{
+       color: white;
+     }
+     table{
+       background-color: white;
+     }
+     .row1{
+       background-color: yellow;
+       font-size: 24;
+     }
+     .days{
+       background-color: lightblue;
+       font-size: 24;
+     }
+     .no{
+       background-color: black;
+       color: white;
+     }
+     .cp{
+       background-color: red;
+     }
+
+     .phy{
+       background-color: black;
+       color: yellow;
+     }
+     .eit{
+       background-color: black;
+       color: red;
+       border : 4px solid white;
+     }
+     .mode{
+       background-color: orange;
+     }
+     .cs{
+       background-color: black;
+       color: lightgreen;
+     }
+     .tamil{
+       background-color: lightgreen;
+       color: black;
+     }
+     .lib{
+       background-color: black;
+       color: darkorange;
+     }
+
+   </style>
+   <title>Table</title>
+ </head>
+ <body>
+
+     <h1 align="center"><b>Time table</b></h1>
+     <table border="1" cellpadding="25" cellspacing="0">
+       <tr class="row1">
+         <td>Days</td>
+         <td>8:45 to 9:40</td>
+         <td>9:40 to 10:25</td>
+         <td>10:25 to 10:45</td>
+         <td>10:45 to 11:30</td>
+         <td>11:30 to 12:15</td>
+         <td>12:15 to 1:15</td>
+         <td>1:15 to 2:00</td>
+         <td>2:00 to 2:45</td>
+         <td>2:45 to 3:00</td>
+         <td>3:00 to 3:45</td>
+         <td>3:45 to 4:30</td>
+       </tr>
+       <tr>
+         <td class="days">No.</td>
+         <td class="no">1</td>
+         <td class="no">2</td>
+         <td rowspan="7" align="center">B<br>r<br>e<br>a<br>k</td>
+         <td class="no">3</td>
+         <td class="no">4</td>
+         <td rowspan="7" align="center">L<br>u<br>n<br>c<br>h<br> <br>B<br>r<br>e<br>a<br>k</td>
+         <td class="no">5</td>
+         <td class="no">6</td>
+         <td rowspan="7" align="center">B<br>r<br>e<br>a<br>k</td>
+         <td class="no">7</td>
+         <td class="no">8</td>
+       </tr>
+       <tr>
+         <td class="days">Monday</td>
+         <td colspan="2" align="center" class="cp">CP</td>
+         <td class="mode">MODE</td>
+         <td class="cs">CS-1</td>
+         <td colspan="2" align="center" class="phy">Phy</td>
+         <td colspan="2" align="center" class="eit">EIT</td>
+       </tr>
+       <tr>
+         <td class="days">Tuesday</td>
+         <td class="cs">CS-I</td>
+         <td class="phy">Phy</td>
+         <td colspan="2" align="center"  class="mode">Mat Lab</td>
+         <td colspan="2" align="center"  class="cp">CP</td>
+         <td class="cp">CP</td>
+         <td class="cs">CS-I</td>
+       </tr>
+       <tr>
+         <td class="days">Wednesday</td>
+         <td class="phy">Phy</td>
+         <td class="lib">Lib</td>
+         <td class="phy">Phy</td>
+         <td class="lib">Lib</td>
+         <td  class="mode">MODE</td>
+         <td class="cp">CP</td>
+         <td class="cs">CS-I</td>
+         <td  class="mode">MODE</td>
+       </tr>
+       <tr>
+         <td class="days">Thursday</td>
+         <td class="eit">EIT</td>
+         <td class="phy">Phy Lab</td>
+         <td colspan="2" align="center" class="phy">Phy Lab</td>
+         <td class="cp">CP</td>
+         <td class="eit">EIT</td>
+         <td class="eit">EIT</td>
+         <td class="cs">CS-I</td>
+       </tr>
+       <tr>
+         <td class="days">Friday</td>
+         <td colspan="2" align="center" class="mode">MODE</td>
+         <td class="phy">Phy</td>
+         <td class="cp">CP</td>
+         <td class="tamil">Tamil</td>
+         <td class="eit">EIT</td>
+         <td class="lib">Lib</td>
+         <td class="cp">CP</td>
+       </tr>
+       <tr>
+         <td class="days">Saturday</td>
+         <td class="cp">CP</td>
+         <td class="cs">CS-I</td>
+         <td class="phy">Phy</td>
+         <td class="tamil">Tamil</td>
+         <td class="mode">MODE</td>
+         <td class="eit">EIT</td>
+         <td class="spd">SPD</td>
+         <td class="ped">PED</td>
+       </tr>
+     </table>
+ </body>
+</html>
